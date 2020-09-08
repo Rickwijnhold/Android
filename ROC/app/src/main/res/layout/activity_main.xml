@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:src="@drawable/school"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:background="#2196F3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:text="De school ROC van Flevoland is een hele gezellige en goede school. Je hebt hier opleidingen die tot niveau 4 gaan. Ik zit nu in mijn examenjaar van de opleiding Applicatie Ontwikkelaar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:padding="30dp"
+        android:textSize="23sp" />
+    <TextView
+        android:text="Adres: Straat van Florida 1, 1334 PA Almere"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
